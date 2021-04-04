@@ -5,7 +5,8 @@
   "author": "x86q",
   "license": "MIT",
   "dependencies": {
-    "commander": "^7.2.0"
+    "commander": "^7.2.0",
+    "node-fetch": "^2.6.1"
   },
   "bin": {
     "dict": "./index.js"

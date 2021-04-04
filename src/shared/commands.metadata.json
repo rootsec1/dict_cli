@@ -1,0 +1,7 @@
+{
+    "DEF": "Display definitions of a word",
+    "SYN": "Display synonyms of a word",
+    "ANT": "Display antonyms of a word",
+    "EX": "Display examples of a word",
+    "PLAY": "Let's play a game"
+}
