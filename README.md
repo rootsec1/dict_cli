@@ -49,11 +49,14 @@ Commands:
 └── yarn.lock
 ```
 
-## Enhancements
+## 📣 Possible Enhancements
 - Fetch API key from environment variables, storing it in code to make testing easier.
 - Use jsconfig `paths` to make relative imports easier.
 - Implements typescript to ensure types.
-- Improve CLI interface (`prettify`)
+- Improve CLI interface (`prettify`).
+- Display a friendly `did you mean` message if a command is not found.
+- Add autoupdate support to the CLI.
+- Add `bash`/`zsh` autocomplete.
 
 ## 🌈 Screenshots
 
