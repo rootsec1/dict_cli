@@ -1,6 +1,7 @@
 # 🔨 dict (Stack Finance Task)
 
 Robust CLI based thesaurus to play with. Focused on code structure and file organisation.
+Built using `commander` (CLI operations) and `chalk` (console coloring). Makes API calls to [dictionaryapi.com](https://dictionaryapi.com/products/api-intermediate-thesaurus) to fetch definitions, synonyms, antonyms and usage examples of a given word.
 
 ## 🏗 Usage
 ```
@@ -48,6 +49,14 @@ Commands:
 │       └── index.js
 └── yarn.lock
 ```
+
+## 🚀  Done so far
+- Implemented `enums` for command names.
+- Separation of concerns, `service` layer deals with API calls, `controller` deals with CLI interaction, `helpers` aid controllers with functions specific to the module.
+- `shared` directory contains globally shared resources such as constants and command information.
+- Utility functions are stored in `util` directory.
+- Error management at every stage with `try/catch` being implemented with various error types at the service level as well as the controller level.
+- Minimalist `index.js` entrypoint with necessary imports only.
 
 ## 📣 Possible Enhancements
 - Fetch API key from environment variables, storing it in code to make testing easier.
