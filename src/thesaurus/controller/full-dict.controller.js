@@ -10,7 +10,7 @@ function printResource(resourceArr, resourceType, word) {
         resourceArr.map((resource, index) => rectifyAndDisplaySentence(resource, index));
         console.log();
     }
-    else console.log(`No ${resourceType} found for ${word}`);
+    else console.log(`No ${resourceType} found for ${word}\n`);
 }
 
 async function onWordInput(word) {

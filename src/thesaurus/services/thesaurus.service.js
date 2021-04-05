@@ -64,27 +64,23 @@ module.exports.getThesaurusData = async (word, commandEnum) => {
         switch (commandEnum) {
             case COMMAND_ENUM.DEF:
                 return getDefinitions(apiResponse);
-                break;
 
             case COMMAND_ENUM.SYN:
                 return getSynonyms(apiResponse);
-                break;
 
             case COMMAND_ENUM.ANT:
                 return getAntonyms(apiResponse);
-                break;
 
             case COMMAND_ENUM.EX:
                 return getExamples(apiResponse);
-                break;
 
             case COMMAND_ENUM.FULL_DICT:
+            case COMMAND_ENUM.PLAY:
                 const definitions = getDefinitions(apiResponse);
                 const synonyms = getSynonyms(apiResponse);
                 const antonyms = getAntonyms(apiResponse);
                 const examples = getExamples(apiResponse);
                 return { definitions, synonyms, antonyms, examples };
-                break;
 
             default:
                 throw new TypeError(`Invalid command ${commandEnum}`);
