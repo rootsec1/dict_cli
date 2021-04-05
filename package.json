@@ -12,5 +12,10 @@
   },
   "bin": {
     "dict": "./index.js"
-  }
+  },
+  "keywords": [
+    "dictionary",
+    "cli",
+    "thesaurus"
+  ]
 }
