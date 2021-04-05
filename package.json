@@ -5,6 +5,7 @@
   "author": "x86q",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^4.1.0",
     "commander": "^7.2.0",
     "node-fetch": "^2.6.1",
     "prompt-sync": "^4.2.0"

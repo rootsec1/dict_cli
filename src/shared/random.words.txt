@@ -40,7 +40,6 @@ imperative
 improvement
 infomediary
 information
-infrastructure
 initiative
 innovation
 interface
@@ -78,7 +77,6 @@ scenario
 schema
 scrub
 service
-shrink
 sidebar
 silo
 skill
