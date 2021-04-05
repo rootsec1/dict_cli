@@ -1,5 +1,5 @@
 admin
-agreeance
+agree
 alignment
 application
 architecture
@@ -27,14 +27,12 @@ delta
 dialogue
 disconnect
 dog
-empowerment
+empower
 experience
 expertise
 flunky
 functionality
 gatekeeper
-gofer
-goldbricker
 hardball
 idea
 ideation
@@ -76,7 +74,6 @@ relationship
 report
 resource
 result
-runway
 scenario
 schema
 scrub

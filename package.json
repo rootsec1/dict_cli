@@ -6,7 +6,8 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^7.2.0",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "prompt-sync": "^4.2.0"
   },
   "bin": {
     "dict": "./index.js"
