@@ -3,6 +3,11 @@
 Robust CLI based thesaurus to play with. Focused on code structure and file organisation.
 Built using `commander` (CLI operations) and `chalk` (console coloring). Makes API calls to [dictionaryapi.com](https://dictionaryapi.com/products/api-intermediate-thesaurus) to fetch definitions, synonyms, antonyms and usage examples of a given word.
 
+## 📌 Setup Instructions
+- Clone the repo
+- Run `yarn`
+- Test command by running `dict`
+- If the previous command fails, run `npm link` and retry
 
 ## 🏗 Usage
 ```
