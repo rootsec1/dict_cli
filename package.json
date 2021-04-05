@@ -1,5 +1,5 @@
 {
-  "name": "dict_cli",
+  "name": "@abhishekwl/dict_cli",
   "version": "1.0.1",
   "main": "index.js",
   "author": "x86q",
