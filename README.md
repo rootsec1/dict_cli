@@ -1,7 +1,8 @@
-# 🔨 dict (Stack Finance Task)
+# 🔨 dict (Stack Finance Task) <a href="https://www.npmjs.com/package/@abhishekwl/dict_cli" target="_blank"><img src="https://img.shields.io/badge/npm-1.0.2-green" alt="NPM Version" /></a>
 
 Robust CLI based thesaurus to play with. Focused on code structure and file organisation.
 Built using `commander` (CLI operations) and `chalk` (console coloring). Makes API calls to [dictionaryapi.com](https://dictionaryapi.com/products/api-intermediate-thesaurus) to fetch definitions, synonyms, antonyms and usage examples of a given word.
+
 
 ## 🏗 Usage
 ```
